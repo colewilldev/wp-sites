@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+    <head>
+        <meta charset="<?php bloginfo('charset');?>">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title><?php bloginfo('name'); ?></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+        <?php wp_head();?>
+    </head>
+    <body <?php body_class();?>>
+       <header>
+           <div class="container">
+                  
+                    <h1>
+                        <a href="index.html">
+                            <?php bloginfo('name');?>
+                        </a>
+                        <small><?php bloginfo('description'); ?></small>
+                    </h1>
+               
+               
+               <div class="h_right">
+                   <form method="get" action="<?php esc_url(home_url('/')); ?>" >
+                       <input type="text" placeholder="Search...">
+                   </form>
+               </div>
+           </div>
+       </header>
+
+       <nav class="nav main-nav">
+           <div class="container">
+                <?php 
+                    $args = array(
+                        'theme_location' => 'primary'
+                ); 
+            ?>
+
+            <?php wp_nav_menus($args); ?>
+           </div>
+       </nav>
+
+       
+        <div class="container content">
+                    
+            <div class="main block">
+                
+                <article class="post">
+                    <h2>Blog Post 1</h2>
+                    <p class="meta">Posted at 11:00 on 5/9 by Admin</p>
+                    <p>
+                            Why do we use it?
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </p>
+                    <a href="#" class="button">Read More</a>
+                </article>
+
+                <article class="post">
+                        <h2>Blog Post 1</h2>
+                        <p class="meta">Posted at 11:00 on 5/9 by Admin</p>
+                        <p>
+                                Why do we use it?
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </p>
+                        <a href="#" class="button">Read More</a>
+                    </article>
+
+                    <article class="post">
+                            <h2>Blog Post 1</h2>
+                            <p class="meta">Posted at 11:00 on 5/9 by Admin</p>
+                            <p>
+                                    Why do we use it?
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                    </p>
+                            <a href="#" class="button">Read More</a>
+                        </article>
+
+                <!-- div.container content -->
+           </div>
+
+
+           <div class="side">
+                <div class="block">
+                    <h3>Sidebar Head</h3>
+                    <p>Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                    <a href="" class="button">More</a>
+                </div>
+            </div>
+
+           <!-- div.main block -->
+       </div>
+       
+        
+
+            
+
+            <footer class="main-footer">
+                <div class="container">
+                    <div class="f_left">
+                        <p>&copy; 2018 - Adv WP Theme</p>
+                    </div>
+                    <div class="f_right">
+                         <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </footer>
+            <?php wp_footer(); ?>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

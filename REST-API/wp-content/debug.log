@@ -1,0 +1,104 @@
+[02-Jul-2019 00:40:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/REST-API/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/REST-API/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/REST-API/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 7
+[02-Jul-2019 00:41:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/REST-API/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/REST-API/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/REST-API/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 7
+[02-Jul-2019 00:43:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php:9
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/REST-API/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/REST-API/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/REST-API/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 9
+[02-Jul-2019 01:13:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_author_posts_url(), 0 passed in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 54 and at least 1 expected in /Applications/MAMP/htdocs_2/REST-API/wp-includes/author-template.php:343
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php(54): get_author_posts_url()
+#1 /Applications/MAMP/htdocs_2/REST-API/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/REST-API/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs_2/REST-API/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs_2/REST-API/wp-includes/author-template.php on line 343
+[02-Jul-2019 01:13:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_author_posts_url(), 0 passed in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 54 and at least 1 expected in /Applications/MAMP/htdocs_2/REST-API/wp-includes/author-template.php:343
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php(54): get_author_posts_url()
+#1 /Applications/MAMP/htdocs_2/REST-API/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/REST-API/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs_2/REST-API/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs_2/REST-API/wp-includes/author-template.php on line 343
+[02-Jul-2019 01:13:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_author_posts_url(), 0 passed in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 54 and at least 1 expected in /Applications/MAMP/htdocs_2/REST-API/wp-includes/author-template.php:343
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php(54): get_author_posts_url()
+#1 /Applications/MAMP/htdocs_2/REST-API/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/REST-API/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs_2/REST-API/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs_2/REST-API/wp-includes/author-template.php on line 343
+[02-Jul-2019 01:25:50 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '[' in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 64
+[02-Jul-2019 01:25:54 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '[' in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 64
+[02-Jul-2019 23:05:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'advset_excerpt_length' not found or invalid function name in /Applications/MAMP/htdocs_2/REST-API/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 23:05:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'advset_excerpt_length' not found or invalid function name in /Applications/MAMP/htdocs_2/REST-API/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 23:05:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'advset_excerpt_length' not found or invalid function name in /Applications/MAMP/htdocs_2/REST-API/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 23:05:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'adv_set_excerpt_length' not found or invalid function name in /Applications/MAMP/htdocs_2/REST-API/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 23:05:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'adv_set_excerpt_length' not found or invalid function name in /Applications/MAMP/htdocs_2/REST-API/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 23:05:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'adv_set_excerpt_length' not found or invalid function name in /Applications/MAMP/htdocs_2/REST-API/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 23:05:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'adv_set_excerpt_length' not found or invalid function name in /Applications/MAMP/htdocs_2/REST-API/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 23:05:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'adv_set_excerpt_length' not found or invalid function name in /Applications/MAMP/htdocs_2/REST-API/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 23:05:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'adv_set_excerpt_length' not found or invalid function name in /Applications/MAMP/htdocs_2/REST-API/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 23:46:22 UTC] PHP Notice:  Undefined variable: category in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 24
+[02-Jul-2019 23:46:22 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 24
+[02-Jul-2019 23:46:22 UTC] PHP Notice:  Undefined variable: category in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 24
+[02-Jul-2019 23:46:22 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 24
+[02-Jul-2019 23:46:22 UTC] PHP Notice:  Undefined variable: category in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 24
+[02-Jul-2019 23:46:22 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 24
+[03-Jul-2019 00:00:21 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 24
+[03-Jul-2019 00:00:21 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 24
+[03-Jul-2019 00:00:21 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/index.php on line 24
+[03-Jul-2019 00:37:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_content() in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/archive.php:29
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/REST-API/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/REST-API/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/REST-API/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/archive.php on line 29
+[03-Jul-2019 00:48:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_past() in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/single.php:8
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/REST-API/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/REST-API/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/REST-API/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/single.php on line 8
+[04-Jul-2019 19:14:30 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 10
+[04-Jul-2019 19:15:06 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 10
+[04-Jul-2019 19:15:35 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 10
+[04-Jul-2019 19:15:40 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 10
+[04-Jul-2019 19:15:41 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 10
+[04-Jul-2019 19:15:46 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 10
+[04-Jul-2019 19:15:47 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 10
+[04-Jul-2019 19:19:48 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[04-Jul-2019 19:19:55 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[04-Jul-2019 19:19:57 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[04-Jul-2019 19:19:58 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[04-Jul-2019 19:19:59 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[04-Jul-2019 19:20:13 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[07-Jul-2019 21:17:01 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[07-Jul-2019 21:17:12 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[07-Jul-2019 21:17:14 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[07-Jul-2019 21:17:17 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[07-Jul-2019 21:18:13 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[07-Jul-2019 21:18:15 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[07-Jul-2019 21:18:23 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[07-Jul-2019 21:18:55 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[07-Jul-2019 23:24:37 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Applications/MAMP/htdocs_2/REST-API/wp-includes/functions.php on line 4592
+[07-Jul-2019 23:24:38 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Applications/MAMP/htdocs_2/REST-API/wp-includes/functions.php on line 4592
+[14-Jul-2019 18:04:13 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11
+[14-Jul-2019 18:04:17 UTC] PHP Warning:  Use of undefined constant get_top_parent - assumed 'get_top_parent' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs_2/REST-API/wp-content/themes/Custom-Adv-WP-Theme/page.php on line 11

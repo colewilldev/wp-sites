@@ -1,0 +1,26 @@
+/* 
+    Theme Name: WS-Theme
+    Author: Cole W
+    Author URI: http://www.colewill.com
+    Description: Bootstrap Theme w/ Wordpress
+    Version: 1.0
+*/
+
+article.post{
+    border-bottom: #ccc solid 1px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+article.post:last-child{
+    border-bottom: none;
+}
+article.post img{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+article.post .meta{
+    background: #f4f4f4;
+    padding: 8px 12px;
+    color: #333;
+}

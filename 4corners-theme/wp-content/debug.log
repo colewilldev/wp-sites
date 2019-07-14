@@ -1,0 +1,60 @@
+[10-Jul-2019 23:15:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_side_bar() in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/4corners-theme/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/4corners-theme/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/4corners-theme/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php on line 14
+[10-Jul-2019 23:16:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_side_bar() in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/4corners-theme/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/4corners-theme/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/4corners-theme/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php on line 14
+[10-Jul-2019 23:16:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_side_bar() in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/4corners-theme/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/4corners-theme/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/4corners-theme/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php on line 14
+[10-Jul-2019 23:16:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_side_bar() in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/4corners-theme/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/4corners-theme/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/4corners-theme/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php on line 14
+[10-Jul-2019 23:16:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_side_bar() in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/4corners-theme/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/4corners-theme/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/4corners-theme/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php on line 14
+[10-Jul-2019 23:20:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_side_bar() in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/4corners-theme/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/4corners-theme/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/4corners-theme/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php on line 14
+[10-Jul-2019 23:21:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_side_bar() in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/4corners-theme/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/4corners-theme/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/4corners-theme/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php on line 14
+[10-Jul-2019 23:21:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_side_bar() in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php:14
+Stack trace:
+#0 /Applications/MAMP/htdocs_2/4corners-theme/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs_2/4corners-theme/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs_2/4corners-theme/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/single.php on line 14
+[11-Jul-2019 19:24:56 UTC] PHP Warning:  require(/Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/inc/customizer.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/functions.php on line 61
+[11-Jul-2019 19:24:56 UTC] PHP Fatal error:  require(): Failed opening required '/Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/inc/customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.7/lib/php') in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/functions.php on line 61
+[11-Jul-2019 19:24:58 UTC] PHP Warning:  require(/Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/inc/customizer.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/functions.php on line 61
+[11-Jul-2019 19:24:58 UTC] PHP Fatal error:  require(): Failed opening required '/Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/inc/customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.7/lib/php') in /Applications/MAMP/htdocs_2/4corners-theme/wp-content/themes/4corners-theme/functions.php on line 61
