@@ -36,7 +36,8 @@ a:hover{
   width:240px;
 }
 .top-bar form input{
-  background: rgba(0,0,0,0) none repeat scroll 0 0 ;
+  background: rgba(0,0,0,1) none repeat scroll 0 0 ;
+  border-radius: 3px;
   border: 0 none;
   color: #7f7d7d;
   float: left;

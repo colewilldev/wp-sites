@@ -6,10 +6,13 @@
     <p class="sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium efficitur justo ut malesuada. Donec efficitur commodo est, sed maximus nisi pulvinar Etiam sem tortor</p>
   </section>
 
-  
+<?php /**
+ * <?php $no_featured_query = new WP_Query(array('cat'=> '-3')); ?>
+ * <?php while($no_featured_query->have_posts()) : $no_featured_query -> the_post();?>
+ */
 
-<?php $no_featured_query = new WP_Query(array('cat'=> '-3')); ?>
-<?php while($no_featured_query->have_posts()) : $no_featured_query -> the_post();?>
+?>
+<?php while(have_posts()): the_post();?>
   
   <article class="blog-post">
     <div class="row">

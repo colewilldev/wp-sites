@@ -27,12 +27,7 @@
     </p>
   </section>
 
-  <div>
-    <h3> This is a test for titles of all posts...</h3>
-    <?php while(have_posts): the_post();?>
-      <h2><?php the_title();?></h2>
-    <?php endwhile;?>
-  </div>
+  
 
 <?php while(have_posts()) : the_post();?>
   <article class="blog-post">

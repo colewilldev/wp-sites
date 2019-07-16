@@ -38,7 +38,6 @@
                       foreach($categories as $category){
                         $output .= '<a href="'.get_category_link($category->term_id).'">'.$category->cat_name .'</a>'. $separator;
                         //$output .= $category->cat_name . $separator;
-
                       }
                     }
                     echo trim($output, $separator);
@@ -49,9 +48,7 @@
             
             <h3><?php the_title(); ?></h3>
             <?php the_content(); ?>
-
             <br>
-
             <?php comments_template(); ?>
         </article>
       </div>
