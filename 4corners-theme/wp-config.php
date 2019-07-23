@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', '4corners-theme' );
+define( 'DB_NAME', 'colewi7_4corners' );
 
 /** MySQL database username */
 define( 'DB_USER', 'cdubs' );
